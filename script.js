@@ -44,7 +44,7 @@ const antonyms1=document.getElementById("antonyms-value");
 
 
 processButton.addEventListener("click",()=>{
-    let wordKey=wordInput.value;
+    let wordKey=wordInput.value.toLowerCase().trim();
     tdElements[0].innerHTML=wordKey.length;
     console.log(wordKey,":",data[wordKey])
     //fetch the data from api
