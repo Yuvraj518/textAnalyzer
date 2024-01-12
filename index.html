@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Text Analyzer</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <section class="heading">
+    <p class="heading1">Text Analizer</p>
+    <p class="heading2">Text Analyzer is a simple free online tool for SEO web content analysis that helps you find most frequent phrases and words, number of characters, words, sentences and paragraphs, and estimated read and speak time of your content.</p>
+  </section>
+  <section class="zoneSwitcher">
+    <div class="active pp" id="wordZone">Word Input</div>
+    <div class="pp" id="paragraphZone">Paragraph</div>
+  </section>
+  <section id="word-group" class="current word-group">
+    <section class="wordPart1">
+      <div id="search"><input id="search-word-input" type="text" value=""></div>
+      <div id="process"><button>Process Word</button></div>
+    </section>
+    <section class="wordPart2">
+      <table>
+        <tr>
+          <th>Characters</th>
+          <th>Words</th>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>1</td>
+        </tr>
+      </table>
+    </section>
+    <section class="wordPart3">
+      <div id="defination">
+        <div id="defination-key">Defination:</div>
+        <div id="defination-value">in, relating to, or characteristic of a town or city.
+          "the urban population"</div>
+      </div>
+      <div id="speech">
+        <div id="speech-key">Speech:</div>
+        <div id="speech-value">Noun</div>
+      </div>
+      <div id="synonyms">
+        <div id="synonyms-key">Synonyms:</div>
+        <div id="synonyms-value">Town</div>
+      </div>
+      <div id="antonyms">
+        <div id="antonyms-key">Antonyms:</div>
+        <div id="antonyms-value">Rural</div>
+      </div>
+    </section>
+  </section>
+  <section id="para-group" class="para-group">
+    <section class="paraPart1">
+      <div id="searchpara"><textarea id="search-para" cols="30" rows="10"></textarea></div>
+    </section>
+    <section class="paraPart2">
+      <table>
+        <tr>
+          <th>Characters</th>
+          <th>Words</th>
+          <th>Sentences</th>
+          <th>Paragraphs</th>
+          <th>Spaces</th>
+          <th>Punctuations</th>
+        </tr>
+        <tr>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+          <td>0</td>
+        </tr>
+      </table>
+    </section>
+  </section>
+  <script src="./script.js"></script>
+</body>
+</html>

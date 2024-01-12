@@ -1,0 +1,133 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    color: #344054;
+    background-color: #EFF6FF;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.heading{
+    margin-inline: 20px;
+}
+.heading1{
+    font-weight: 500;
+    font-size: 48px;
+}
+
+.heading2{
+    font-weight: 400;
+    font-size: 32px;
+}
+
+.zoneSwitcher{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: space-between; */
+    width: 40%;
+    /* background-color: #EAECF0; */
+    border: 1px solid #D2D6DB;
+    margin: 20px;
+    border-radius: 5px;
+}
+.pp{
+    width: 100%;
+    background-color: #EAECF0;
+}
+.active{
+    color: #344054;
+    margin: 2px;
+    background-color: #FCFCFD;
+    border-radius: 5px;
+
+}
+.wordPart1{
+    display: flex;
+    flex-direction: row;
+    gap: 10%;
+    margin-inline: 20px;
+}
+#search{
+    width: 60%;
+}
+#search-word-input{
+    width: 100%;
+    padding: 10px;
+    background-color: #EAECF0;
+    border: 1px solid #D2D6DB;
+    border-radius: 5px;
+    outline: none;
+}
+button{
+    padding: 10px;
+    background-color: #731EE2;
+    color: white;
+    border: none;
+}
+table,td,th{
+    border: 1px solid #D2D6DB;
+    border-collapse: collapse;
+    padding-block: 10px;
+    padding-right: 100px;
+    margin: 20px;
+}
+th{
+    background-color: #FCFCFD ;
+}
+td{
+    background-color: #EAECF0;
+}
+
+.wordPart3{
+    margin-inline: 20px;
+    border: 2px solid #D2D6DB;
+    border-radius: 5px;
+}
+.wordPart3 div{
+    display: flex;
+}
+.wordPart3 div div:nth-child(1){
+    width: 10%;
+    padding: 5px;
+}
+.wordPart3 div div:nth-child(2){
+    width: 25%;
+    padding: 5px;
+    color: #111927;
+}
+
+
+#search-para{
+    margin: 20px;
+    width: 86%;
+    height: 150px;
+    border: 1px solid #D2D6DB;
+    background-color: #EAECF0;
+    border-radius: 5px;
+    outline: none;
+}
+.para-group,.word-group{
+    display: none;
+}
+.current{
+    display: block;
+}
+
+
+
+
+/* #load{
+   width: 2rem;
+    height: 2rem;
+    border: 5px solid rgb(177, 91, 91);
+    border-top: 6px solid purple;
+    border-radius: 50%;
+    margin: auto;
+    visibility: hidden;
+    animation: spin 1s infinite linear;
+}
+#load.display{
+    visibility: visible;
+}
+@keyframes spin{
+    from{ transform: rotate(0deg);}
+    to{ transform: rotate(360deg);}
+} */
